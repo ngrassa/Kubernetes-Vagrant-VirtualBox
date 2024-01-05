@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
       shell.args = ["master", "192.168.99.10"]
     end
   end
-  workers=3
+  workers=2
   ram_worker=2048
   cpu_worker=2
   (1..workers).each do |i|
