@@ -8,7 +8,7 @@ yum -y install ansible
 # retrieve ansible code
 yum -y install git
 rm -Rf kubernetes-certification-stack || echo "previous folder removed"
-git clone  https://github.com/eazytraining/kubernetes-certification-stack.git
+git clone https://github.com/AramBarca/Kubernetes-Vagrant-VirtualBox.git
 cd kubernetes-certification-stack
 KUBERNETES_VERSION=1.28.1
 ansible-galaxy install -r roles/requirements.yml
