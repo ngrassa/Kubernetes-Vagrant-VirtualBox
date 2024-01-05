@@ -5,7 +5,7 @@ For detailed implementation guidance, troubleshooting tips, and code explanation
 git clone https://github.com/AramBarca/Kubernetes-Vagrant-VirtualBox.git
 cd Kubernetes-Vagrant-VirtualBox
 vagrant up
-sudo  kubectl get nodes
+sudo kubectl get nodes
 ```
 ## Note:
 To customize worker nodes, open the Vagrant file andmodify the following settings::
