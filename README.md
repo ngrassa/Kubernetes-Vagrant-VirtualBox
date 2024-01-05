@@ -1,8 +1,8 @@
 # Kubernetes on VirtualBox with Vagrant: Quick Setup
-For detailed implementation guidance, troubleshooting tips, and code explanations, check out my [article](https://arambarca.com/p/kubernete-vagrant-virtualbox/).
+For detailed implementation guidance, troubleshooting tips, and code explanations, check out [article](https://arambarca.com/p/kubernete-vagrant-virtualbox/).
 ## Quick setup:
 ```bash
-git clone https://github.com/AramBarca/Kubernetes-Vagrant-VirtualBox.git
+git clone https://github.com/ngrassa/Kubernetes-Vagrant-VirtualBox.git
 cd Kubernetes-Vagrant-VirtualBox
 vagrant up
 sudo kubectl get nodes
